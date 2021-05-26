@@ -1,9 +1,15 @@
 h1 {
+<<<<<<< HEAD
   color: darkred;
+=======
+  color: blue;
+  text-align: center;
+>>>>>>> aquamarine
 }
 
 h2 {
   font-style: italic;
+<<<<<<< HEAD
   color: red;
 }
 
@@ -15,4 +21,16 @@ body {
   background-color: salmon;
   font-family: sans-serif;
   text-align: center;
+=======
+  text-align: center;
+  color: teal;
+}
+
+p {
+  color: gray;
+}
+
+body {
+  background-color: skyblue;
+>>>>>>> aquamarine
 }
