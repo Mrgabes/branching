@@ -1,52 +1,36 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/ec/c2/12/ecc2124116aa5a0ee1bc466c7b69dd8a.gif);
+  color: white;
+}
 h1 {
-  color: darkred;
-  color: blue;
+  font-size: 50px;
+  background-color: rgba(238, 241, 245, 0.212);
+  color:lightpink;
+  margin:2em;
+}
+.prompt {
+  font-size: 30px;
+}
+
+#first1, 
+#second2,
+#third3,
+#forth4
+{ 
+    display: none;
+}
+.container {
   text-align: center;
+  margin-top: 2em;
 }
-
-h2 {
-  font-style: italic;
-
-  color: red;
+.form-control {
+  margin:1.5em;
+  background-color:lightgray
 }
-
-.container p {
-  color:rgb(217, 236, 147);
-}
-
-body {
-  background-color: salmon;
-  font-family: sans-serif;
-  text-align: center;
-  text-align: center;
-  color: teal;
-}
-
-p {
-  color: gray;
-}
-
-body {
-  background-color: skyblue;
-}
-
-.container{
-  background-size: cover;
-  background-position: bottom center;
-  background-image:url("https://i.redd.it/qi0yy49xfzq21.jpg");
-}
-.col-sm img {
-  border: solid black 1px;
-  border-radius: 90px;
-  background-image: 50px;
-}
-
-#carouselExampleIndicators {
-
-
-}
-
-#box {
-  border:solid black 3px;
- 
+button {
+  background-color: tomato;
+  color:white;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight:bold
 }
